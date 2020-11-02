@@ -1,0 +1,17 @@
+name: the-example-app
+namespace: ""
+cdPipelineName: ""
+cdPipelineStageName: ""
+dnsWildcard: 59ae6b648ca3437aae3a.westeurope.aksapp.io
+framework: other
+
+database:
+  required: false
+
+
+ingress:
+  required: false
+
+image:
+  name: the-example-app
+  version: latest
